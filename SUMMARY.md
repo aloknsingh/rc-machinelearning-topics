@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Distribution - Beta](betadistribtionmd.md)
-   * Beta
+   * [Beta]("Probability Distribution/BetaDistribution.md)
 
