@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * Probability Distributions
-   * Beta Distribution
+   * [Beta Distribution](ProbabilityDistributions/BetaDistribution.md)
 
