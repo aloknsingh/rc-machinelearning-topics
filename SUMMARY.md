@@ -5,4 +5,5 @@
    * [Beta Distribution](ProbabilityDistributions/BetaDistribution.md)
 * Regression
 * TextAnalytics
+* Optimization
 
