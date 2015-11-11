@@ -25,7 +25,7 @@ $$P(x;\alpha, \beta) = \frac{1}{B(\alpha, \beta)}x^{\alpha}(1-x)^{\beta-1}, x \i
 
 
 ## Application
-Beta and it's cousin Dirichlet has a many applications. In ML context Dirichlet is used in the topic modeling LDA.
+Beta and it's cousin Dirichlet Distribution has many applications. In ML context Dirichlet is used in the topic modeling LDA.
 
 ## Example
 Here we can see the output plot using R to use beta distribution to estimate the probability of the coin. Note that in the end the maximum probability is at 0.65
