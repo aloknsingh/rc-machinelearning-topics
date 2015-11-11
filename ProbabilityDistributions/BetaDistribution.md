@@ -5,6 +5,12 @@
 
 
 
+A Beta distribution is used to model things that have a limited range, like 0 to 1.
+
+Examples are the probability of success in an experiment having only two outcomes, like success and failure. If you do a limited number of experiments, and some are successful, you can represent what that tells you by a beta distribution.
+
+Another example is order statistics. For example, if you generate several (say 4) uniform 0,1 random numbers, and sort them, what is the distribution of the 3rd one?
+
 Beta distribution can be understood as representing a distribution of probabilities. 
 For example if we are given the unknown coin, which may be fair or unfair so how to we estimate it's probability? well we know that a coin prior i.e p = 0.5 and then we toss the coin multiple times in a series of experiment and after every experiment we update our estimated probability using the bayes rule i.e posterior is proportional to likelihood * prior.
 After enough samples and experiments we will get the real p of the given coin.
@@ -14,7 +20,7 @@ After enough samples and experiments we will get the real p of the given coin.
 
 
 
-$$\frac{1}{B(\alpha, \beta)}x^{\alpha}(1-x)^{\beta-1}$$
+$$P(x;\alpha, \beta) = \frac{1}{B(\alpha, \beta)}x^{\alpha}(1-x)^{\beta-1}, x \in (0,1)$$
 
 
 
