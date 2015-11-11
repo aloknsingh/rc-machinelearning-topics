@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Distribution - Beta
+* [Distribution - Beta]("Probability Distribution"/BetaDistribtion.md)
 
