@@ -6,4 +6,5 @@
 * Regression
 * TextAnalytics
 * Optimization
+* Sampling Methods
 
