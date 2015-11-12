@@ -12,4 +12,5 @@
    * Importance Sampling
    * Rejection Sampling
    * Markow Chain Monte Carlo
+   * Gibbs Sampling
 
