@@ -9,4 +9,5 @@
 * [Sampling Methods](SamplingMethods/SamplingMethods.md)
    * [Why Sampling? Pros and Cons](SamplingMethods/WhySampling.md)
    * Monte Carlo Approximation (method)
+   * Importance Sampling
 
