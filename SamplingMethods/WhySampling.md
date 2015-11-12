@@ -26,6 +26,7 @@ $$
 * Approximation is needed for sum or integral which can represented as the expectation (in general in probabilities)
 
 
+The implications of above is that if we can somehow calculate expectations of the distribution we can calculate it's distributions, various stats etc which every in need to have the complete distribution in the closed or analytic form. We will see how the sampling helps us with that.
 
 ### Pros
 
