@@ -11,4 +11,5 @@
    * Monte Carlo Approximation (method)
    * Importance Sampling
    * Rejection Sampling
+   * Markow Chain Monte Carlo
 
