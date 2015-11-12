@@ -7,4 +7,5 @@
 * TextAnalytics
 * Optimization
 * Sampling Methods
+   * Why Sampling? Pros and Cons
 
