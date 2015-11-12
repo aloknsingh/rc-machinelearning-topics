@@ -31,9 +31,7 @@ $$
 
 *  Easy to implement and understand compare to analytical or deterministic approximation.
 *  General purpose and approximate calculations.
-*  There are many sampling methods.. monte carlo, importance, markow chain monte carlo, gibbs sampling.
-
-
+*  There are many sampling methods in open source libraries
 
 ### Cons
 
@@ -43,4 +41,6 @@ $$
 * Getting good samples may be inefficient and difficult to assess if we are getting good approximations.
 
 
+### Going forward...
 
+Given that we have many sampling methods and we will explore them i.e basically monte carlo, importance, markow chain monte carlo, gibbs sampling.
