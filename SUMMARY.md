@@ -7,5 +7,5 @@
 * TextAnalytics
 * Optimization
 * Sampling Methods
-   * Why Sampling? Pros and Cons
+   * [Why Sampling? Pros and Cons](why_sampling_pros_and_cons.md)
 
