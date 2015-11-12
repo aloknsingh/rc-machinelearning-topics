@@ -33,7 +33,7 @@ Here we can see the output plot using R to use beta distribution to estimate the
 
 Here is the sample r code to illustrate the beta distribution intuition
 
-```
+```R
 coinWeights <- c(.65,.35)
 
 prior <- c(1,1)
