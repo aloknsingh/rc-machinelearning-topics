@@ -3,14 +3,13 @@
 
 ### Why Sampling?
 
-
+The natural question to ask is why do we need to do sampling? One can think of some of applications of sampling ...
 * It allows us to approximate the expectations in convenient ways. Which can allows as to calculate statistics like mean, variance and predictions.
-* It allows us to do the posterior inference in general thus helping with the bayesian analysis. 
+* It allows us to do the posterior inference in Bayesian analysis, which can have a un-tractable and complicated posterior probability distribution.
 * One can have the visualization of the typical draws from the distribution of interest from a complicated distribution. 
 
 
-Why expectations and not other other stats or other things?
-because 
+Why expectations and not other other stats or other things? The answer lies in the following facts.
 
 *  any probability is expectation of the indicator function of the set i.e formally the following is true
 
@@ -18,7 +17,7 @@ because
 $$
 \begin{matrix}
 Assertion: & P(X \in A) = & \mathbb{E}[ \mathbb{I}(X \in A)]  \\  
-Proof: & rhs = & \mathbb{E}[I(X \in A)]  \\ 
+Proof: & rhs = & \mathbb{E}[\mathbb{I}(X \in A)]  \\ 
 \quad & \quad = & \mathbb {I}(X \in A)*P(X \in  A) +  \mathbb{I}(X \notin A)*P(X \notin A) \\ 
 \quad & \quad = & 1*P(X \in  A)+0*P(X \notin A) \\
 \quad & \quad = & P(X \in A) \\
