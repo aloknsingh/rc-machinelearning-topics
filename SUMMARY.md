@@ -6,6 +6,6 @@
 * Regression
 * TextAnalytics
 * Optimization
-* Sampling Methods
+* [Sampling Methods](SamplingMethods/SamplingMethods.md)
    * [Why Sampling? Pros and Cons](why_sampling_pros_and_cons.md)
 
