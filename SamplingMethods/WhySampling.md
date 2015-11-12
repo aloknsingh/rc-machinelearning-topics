@@ -4,7 +4,10 @@
 ### Why Sampling?
 
 
-It allows us to approximate the expectations in convenient ways. Which can allows as to calculate statistics like mean, variance and predictions. It allows us to do the posterior inference in general thus helping with the bayesian analysis. One can have the visualization of the typical draws from the distribution of interest from a complicated distribution. 
+* It allows us to approximate the expectations in convenient ways. Which can allows as to calculate statistics like mean, variance and predictions.
+* It allows us to do the posterior inference in general thus helping with the bayesian analysis. 
+* One can have the visualization of the typical draws from the distribution of interest from a complicated distribution. 
+
 
 Why expectations and not other other stats or other things?
 because 
