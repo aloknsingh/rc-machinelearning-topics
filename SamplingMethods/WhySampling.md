@@ -9,7 +9,7 @@ The natural question to ask is why do we need to do sampling? One can think of s
 * One can have the visualization of the typical draws from the distribution of interest from a complicated distribution. 
 
 
-Why expectations and not other other stats or other things? The answer lies in the following facts.
+Why would we want to approximate the expectations and not other other stats or other things? The answer lies in the following facts.
 
 *  any probability is expectation of the indicator function of the set i.e formally the following is true
 
