@@ -8,7 +8,7 @@
 * Optimization
 * [Sampling Methods](SamplingMethods/SamplingMethods.md)
    * [Why Sampling? Pros and Cons](SamplingMethods/WhySampling.md)
-   * Monte Carlo Approximation (method)
+   * [Monte Carlo Approximation (method)](SamplingMethods/monte_carlo_method.md)
    * Importance Sampling
    * Rejection Sampling
    * Markow Chain Monte Carlo
