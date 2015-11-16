@@ -12,7 +12,7 @@ Examples are the probability of success in an experiment having only two outcome
 Another example is order statistics. For example, if you generate several (say 4) uniform 0,1 random numbers, and sort them, what is the distribution of the 3rd one?
 
 Beta distribution can be understood as representing a distribution of probabilities. 
-For example if we are given the unknown coin, which may be fair or unfair so how to we estimate it's probability? well we know that a coin prior i.e p = 0.5 and then we toss the coin multiple times in a series of experiment and after every experiment we update our estimated probability using the bayes rule i.e posterior is proportional to likelihood * prior.
+For example if we are given the unknown coin, which may be fair or unfair so how to we estimate it's probability? well we know that a coin prior i.e p = 0.5 and then we toss the coin multiple times in a series of experiment and after every experiment we update our estimated probability using the bayes rule i.e $$posterior \propto likelihood * prior$$.
 After enough samples and experiments we will get the real p of the given coin.
 
 
@@ -64,6 +64,9 @@ for (n in 1:numFlips) {
 legend("topleft", legend=c("prior",paste("flip",c("H","T")[flips])), col=c("#000000",colors), lwd=1)
 ```
 
+###Discussion
+From the above motivating example, we can see that one of the good property of the beta distribution is that we can use as the prior i.e to represent our belief of the probability and then do many experiments and then update our belief (i.e posterior) using the likelihood of the experiment and prior belief.
+Another useful property is that since beta distribution is the member of exponential family whose sufficient statistics is in the linear space, we can just work with the sufficient statistics without even having to worry about the complex mathematical distribution of beta.
 
 ## References and More Readings
 
