@@ -36,6 +36,10 @@ Where $$Z_{n} = \sum_{i=1}^{N}P^{*}(\vec x_{i})$$
 
 Where the normalized entry $$P(\vec x_{i}) = P^{*}(\vec x_{i})/Z_{n}$$ is the pdf of the height of lake. 
 
+A lot of problem can be easily solved by simple simulation if we assume $$P(\vec x)$$ is uniform distribution. In that case, we have the simple average i.e the unbiased expectation as the approximation for $$\Phi $$ which is $$\hat \Phi$$.
+
+One such example is the estimation of $$\pi$$ (@TODO: have example)
+
 ### Algorithm
 1. Choose the distribution (say uniform) and draw random samples. 
 2. Evaluate the value of unknown distribution at those random samples
