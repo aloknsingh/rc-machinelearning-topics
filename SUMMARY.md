@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Importance Sampling
 * [Probability Distributions](ProbabilityDistributions/ProbabilityDistributions.md)
    * [Beta Distribution](ProbabilityDistributions/BetaDistribution.md)
 * Regression
